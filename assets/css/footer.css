@@ -1,0 +1,63 @@
+.footer{
+    width: 100%;
+    height: 80rem;
+    margin-top: auto;
+    color: var(--primary-color);
+}
+.upper-section{
+    background-color: black;
+    height: 60rem;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+.upper-section .legal{
+    font-size: 5rem;
+    letter-spacing: .6rem;
+}
+.upper-section .legal .for-you{
+    line-height: 18rem;
+}
+.upper-section .legal .terms{
+    line-height: 7.6rem;
+    color: white;
+}
+.contact{
+    font-size: 6rem;
+    line-height: 11rem;
+    letter-spacing: .6rem;
+}
+.emailicn img, .phoneicn img, .instagramicn img{
+    width: 6rem;
+    margin-right: 2rem;
+}
+.appleStore, .playStore{
+    width: 44rem;
+    display: flex;
+    font-size: 4rem;
+    border-radius: 2rem;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: white;
+}
+.playStore{
+    width: 46rem;
+    margin-top: 2rem;
+}
+.appleStore .appleicn, .playStore .playStoreicn{
+    height: 5rem;
+    font-size: 11rem;
+}
+.lower-section{
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 4rem;
+    line-height: 20rem;
+    background-color: white;
+}
+.lower-section p{
+    word-wrap: break-word; 
+    width: 353rem;
+    margin: auto;
+}

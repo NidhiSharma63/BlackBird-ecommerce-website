@@ -1,0 +1,35 @@
+.mens-section, .women-section{
+    background-color: var(--primary-color);
+    padding: 5rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    height: 106rem;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+.women-section{
+    background-color: var(--secondary-color);
+}
+.mens-images{
+    width: 109rem;
+}
+.women-images{
+    width: 208rem;
+}
+.mens-images img, .women-images img{
+    width: 100%;
+}
+.mens-section-text{
+    color: white;
+    font-size: 25rem;
+}
+.mens-section-text .trending{
+    color: var(--secondary-color);
+}
+.women-section-text{
+    font-size: 25rem;
+    color: var(--primary-color);
+}
+.women-trending{
+    color: white;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.hero-banner{
+    width: 100%;
+    height: 156rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bannerImage{
+    width: 263rem;
+    height: 141rem;
+    margin-top: 15rem;
+}
+.bannerImage img{
+    width: 88%;
+    height: 99%;
+    position: relative;
+    bottom: 140rem;
+    z-index: 2;
+}
+.yellowDiv{
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    position: relative;
+    z-index: 1;
+    right: 0;
+    border-radius: 21rem 0rem 99rem 0rem;
+}
+.textContainer{
+    color: white;
+    width: 94rem;
+    height: 107rem;
+    line-height: 27rem;
+    text-align: center;
+    font-size: 17rem;;
+}
+.textContainer .make, .textContainer .better{
+    color: var(--primary-color);
+}
